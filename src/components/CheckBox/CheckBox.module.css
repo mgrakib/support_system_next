@@ -1,0 +1,41 @@
+/** @format */
+
+.CheckBox {
+	visibility: hidden;
+	position: relative;
+}
+.CheckBox::after,
+.CheckBox::before {
+	visibility: visible;
+	content: "";
+	border-radius: 2px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+.CheckBox::after {
+	border: 1px solid var(--secondary-text-color);
+}
+.CheckBox::before {
+    content: "\f00c";
+	background-color: var(--ternary-color);
+    scale: .0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: "Font Awesome\ 5 Free";
+}
+
+
+.CheckBox:checked::after {
+	opacity: 0;
+}
+.CheckBox:checked::before {
+	scale: 1;
+}
