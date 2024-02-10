@@ -8,11 +8,15 @@
 	--primary-color: #060818;
 	--dark-2: #0E1726;
 	--dark-3: #191E3A;
+	--dark-4: #0E1726;
 	--secondary-color: #0c1427;
 	--ternary-color: #25d5e4;
 	--gray-color: #494f50;
 	--secondary-text-color: #887b75;
 	--text-primary-color: #fff;
+	--title-color: #009688;
+	--action-color: #1B55E2;
+	--close-color: #8DBF42;
 }
 
 body {
