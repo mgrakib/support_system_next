@@ -25,6 +25,7 @@ module.exports = {
         "title-color": "var(--title-color)",
         "action-color": "var(--action-color)",
         "close-color": "var(--close-color)",
+        "high-color": "var(--high-color)",
       }
     },
   },

@@ -87,11 +87,9 @@ const ProfileSection = () => {
 					</div>
 
 					<div
-						className={`text-text-primary-color  bg-dark-2  absolute  w-full shadow-[0px_0px_10px_rgba(0,0,0,.5)] rounded max-h-${
-							isOpen ? "auto" : "0"
-						} overflow-hidden top-[${
-							isOpen ? "120%" : "140%"
-						}] duration-300`}
+						className={`text-text-primary-color  bg-dark-2  absolute  w-full shadow-[0px_0px_10px_rgba(0,0,0,.5)] rounded ${
+							isOpen ? "max-h-auto top-[60px]" : "max-h-0 top-[80px]"
+						} overflow-hidden duration-300`}
 					>
 						{profileItem}
 					</div>
